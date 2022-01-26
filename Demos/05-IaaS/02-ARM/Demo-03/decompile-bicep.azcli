@@ -1,0 +1,2 @@
+az group export --name "your_resource_group_name" > main.json
+az bicep decompile --file main.json
